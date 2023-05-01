@@ -16,10 +16,6 @@
       "128": "icon128.png"
     }
   },
-  "permissions": [
-    "activeTab"
-  ],
-  "content_security_policy": "script-src 'self' https://graph.facebook.com; object-src 'self'",
   "background": {
     "service_worker": "background.js"
   },
